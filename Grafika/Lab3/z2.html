@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<body>
+    <p>Wykres z punktow i powierzchnia z trojkatow</p>
+    <canvas id="canvas" width="500px" height="500px" style="border:2px solid black">
+</canvas>
+    <p>Sterowanie: WSAD<br> Rotacje: strzalki<br> Zblizanie\oddalanie: F\G</p>
+    <input type="radio" name="type" id="fun1" checked>sin(x)*cos(y)</input>
+    <input type="radio" name="type" id="fun2">arcsin(x*y)</input>
+    <input type="radio" name="type" id="fun3">x*y</input>
+    <input type="checkbox" name="type" id="type">Trojkaty</input>
+    <script src="../resources/matrix.js"></script>
+    <script src="plot.js"></script>
+    <script src="z2.js"></script>
+</body>
+
+</html>
